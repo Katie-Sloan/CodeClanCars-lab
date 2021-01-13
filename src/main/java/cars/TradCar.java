@@ -14,8 +14,8 @@ public class TradCar extends Car{
         this.mpg = mpg;
     }
 
-
-
-
+    public int getMpg() {
+        return this.mpg;
+    }
 
 }

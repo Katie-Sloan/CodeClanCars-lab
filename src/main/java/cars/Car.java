@@ -44,8 +44,8 @@ public abstract class Car {
         return this.colour;
     }
 
-    public CarEngine getEngine () {
-        return this.carEngine;
+    public String getEngineType () {
+        return this.carEngine.getEngineType();
     }
 
     public int getNumberOfTyres() {
