@@ -10,4 +10,8 @@ public class ElectricCar extends Car{
         super(make, model, price, colour, carEngine, numberOfDoors, topSpeed, transmission);
         this.range = range;
     }
+
+    public int getRange(){
+        return this.range;
+    }
 }

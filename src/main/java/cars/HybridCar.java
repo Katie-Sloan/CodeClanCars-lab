@@ -13,4 +13,12 @@ public class HybridCar extends Car{
         this.range = range;
     }
 
+    public int getMpg(){
+        return this.mpg = mpg;
+    }
+
+    public int getRange(){
+        return this.range = range;
+    }
+
 }

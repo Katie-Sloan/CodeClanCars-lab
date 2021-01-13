@@ -40,7 +40,7 @@ public class TradCarTest {
     }
 
     @Test
-    public void canGetEngine() {
+    public void canGetEngineType() {
         assertEquals("diesel", tradCar.getEngineType());
     }
 
